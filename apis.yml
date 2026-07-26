@@ -1,7 +1,24 @@
 aid: findmecure
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/findmecure.png
 name: FindMeCure
-description: FindMeCure is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: FindMeCure is a Sofia, Bulgaria healthtech company (founded 2015, backed by Techstars) that
+  connects patients with clinical trials through a patient-facing search engine often described as "the
+  Google of clinical trials," letting people search, find, and join a trial within a few clicks. Its
+  sister B2B product, TrialHub, is a clinical-trial strategy, feasibility, and patient-recruitment
+  intelligence platform covering 70 countries and serving pharmaceutical sponsors and CROs including
+  Takeda, Novartis, and Syneos Health. No public developer API is currently documented; this profile
+  captures the company's identity and probed domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/findmecure/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Health
+- Healthcare
+- Clinical Trials
+- Patient Recruitment
+- Life Sciences
+- Clinical Research
+- Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +45,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/findmecure-domain-security.yml
 - type: Website
   url: https://findmecure.com/
+- type: Blog
+  url: https://www.findmecure.com/blog
+- type: LLMsTxt
+  url: llms/findmecure-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

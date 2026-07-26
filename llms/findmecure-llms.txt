@@ -1,0 +1,19 @@
+# FindMeCure
+
+> FindMeCure is a Sofia, Bulgaria healthtech company (founded 2015, backed by Techstars) that connects patients with clinical trials through a patient-facing search engine — "the Google of clinical trials." Its sister B2B product, TrialHub, is a clinical-trial strategy and feasibility platform serving pharmaceutical sponsors and CROs. No public developer API is currently documented.
+
+## Products
+- [FindMeCure (patient search)](https://www.findmecure.com/): Search, find, and join clinical trials in a few clicks.
+- [TrialHub (B2B intelligence)](https://trialhub.com/): Clinical-trial feasibility, planning, and patient-recruitment intelligence across 70 countries; customers include Takeda, Novartis, and Syneos Health.
+
+## Company
+- [About Us](https://www.findmecure.com/company): Mission, team, and background.
+- [Foundation](https://www.findmecure.com/foundation): FindMeCure Foundation initiatives.
+- [Blog](https://www.findmecure.com/blog): Articles on clinical research, patient access, and trial innovation.
+
+## Catalog
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/findmecure/refs/heads/main/apis.yml): API Evangelist network catalog entry for FindMeCure.
+
+## Notes
+- No public REST/GraphQL API, developer portal, SDK, OpenAPI, or `/.well-known/` discovery surface was found as of 2026-07-19.
+- Domain security (TLS 1.3, HSTS, SPF, DMARC p=reject) is probed in `security/findmecure-domain-security.yml`.
